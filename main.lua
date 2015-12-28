@@ -17,9 +17,7 @@ local selectionButtonWidth = 75
 local selectionButtonWidthLarge = 355
 local selectionButtonWidthSpeed = 200
 local SelectionButton = function(name, image)
-	local arg = {
-		preventsOverflows = true
-	}
+	local arg = {}
 
 	if buttonId == 0 then
 		arg.width = selectionButtonWidthLarge
